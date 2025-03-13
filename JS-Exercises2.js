@@ -12,4 +12,13 @@ function arithmetic(num1, num2) {
 }
 arithmetic(10,2);
 // 3. Write a JavaScript program that prints the numbers 1 to 10 using a for loop and another version using a while loop.
+for (let i=1; i<=10; i++) {
+    console.log(i);
+}
+
+let num=1;
+while(num<=10) {
+    console.log(num);
+    num++;
+}
 // 4. Write a JavaScript program that checks if a given number is even or odd and displaysthe result in the browser console.
